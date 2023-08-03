@@ -1,0 +1,10 @@
+.images{
+    background-image: url(./img/1000_F_536021444_iLR1awZEhwryKHF1CBxXmoXuvzwbny6s.jpg);
+    font-size: 50px;
+    font-weight: 900;
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
