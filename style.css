@@ -1,3 +1,9 @@
+body{
+    background-image: url(./img/pexels-johannes-plenio-1103970.jpg);
+    background-repeat: no-repeat;
+    
+}
+
 .images{
     background-image: url(./img/1000_F_536021444_iLR1awZEhwryKHF1CBxXmoXuvzwbny6s.jpg);
     font-size: 50px;
