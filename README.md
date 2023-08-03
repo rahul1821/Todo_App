@@ -33,4 +33,4 @@ Arrange your tasks based on priority, due dates, or alphabetical order. This fea
 As a Vanilla JavaScript-based app, TreeTask has minimal dependencies, ensuring speedy loading times and reducing the risk of compatibility issues.
 
 # Sample Image
-<
+<img src="img/sample image.png">
