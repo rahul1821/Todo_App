@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body style="background-color: aquamarine;">
+
+    <div class="container mt-5">
+        <div class="text-cener">
+            <h1 class=" mb-5 text-center" ><strong>TODO App</strong></h1>
+        </div>
+        <div class="main row justify-content-center">
+            <form action="" id="student-form" class="row justify-content-center mb-4" autocomplete="off">
+                <div class="col-10 mb-3 col-md-8">
+                    <label for="firstName">Description</label>
+                    <input class="form-control" id="firstName" type="text" placeholder="What do you need to do?">
+                </div>
+                <div class="col-10 mb-3 col-md-8">
+                    <label for="LastName">Select Category</label><br>
+                    <select name="" id="lastName">
+                        <option value="">Select Category</option>
+                        <option value="school">School</option>
+                        <option value="work">Work</option>
+                        <option value="personal">Personal</option>
+                        <option value="cleaning">Cleaning</option>
+                    </select>
+                    <!-- <input class="form-control" id="lastName" type="text" placeholder="Last Name"> -->
+                </div>
+                <div class="col-10 mb-3 col-md-8">
+                    <label for="Roll No">DUE DATE</label>
+                    <input class="form-control" id="rollNumber" type="date" placeholder="Roll Number">
+                </div>
+                <div class="col-12 col-md-8">
+                    <input type="submit" class="btn btn-success add-btn" type="submit" value="Submit">
+                </div>
+            </form>
+            <div class="col-12 mt-5 col-md-10">
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Date</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="student-list">
+                        <tr>
+                            <td>My name is Rahul Singh</td>
+                            <td>Personal</td>
+                            <td>15/07/1996</td>
+                            <td><a href="#" class="btn btn-warning btn-sm edit">Edit</a>
+                                <a href="#" class="btn btn-danger btn-sm delete">Delete</a></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
